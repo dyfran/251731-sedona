@@ -21,3 +21,59 @@ body {
 	font-weight: normal;
 	font-family: "PT Sans"
 }
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.container {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: pink;
+}
+
+/*.main-header {
+	background-color: MediumAquamarine;
+}*/
+
+.main-navigation {
+	background-color: MediumSlateBlue;
+}
+
+.about-sedona {
+	width: 567px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: MediumAquamarine;
+}
+
+.features {
+	background-color: DarkGoldenRod;
+}
+
+.features-item {
+	width: 400px;
+	float: left;
+}
+
+.features-item-background {
+	width: 800px;
+	float: right;
+}
+
+.advantage-item {
+	width: 400px;
+	float: left;
+	background-color: Teal;
+}
+
+.interested {
+	width: 576px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: green;
+}
