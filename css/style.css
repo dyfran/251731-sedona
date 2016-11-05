@@ -44,6 +44,13 @@ body {
 	background-color: MediumSlateBlue;
 }
 
+.main-background {
+	width: 576px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: YellowGreen;
+}
+
 .about-sedona {
 	width: 567px;
 	margin-right: auto;
@@ -57,12 +64,14 @@ body {
 
 .features-item {
 	width: 400px;
-	float: left;
+	margin-right: -3px;
+	display: inline-block;
 }
 
 .features-item-background {
 	width: 800px;
-	float: right;
+	margin-right: -3px;
+	display: inline-block;
 }
 
 .advantage-item {
@@ -76,4 +85,72 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: green;
+}
+
+.search {
+	width: 576px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: PowderBlue;
+}
+
+.footer-tag {
+	width: 240px;
+	float: left;
+	margin-right: 88px;
+	background-color: LightBlue;
+}
+
+.footer-social {
+	width: 400px;
+	float: left;
+	background-color: LightGreen;
+}
+
+.footer-copyright {
+	width: 241px;
+	float: right;
+	background-color: LightSalmon;
+}
+
+.popup {
+	visibility: hidden;
+}
+
+.search-options {
+	padding-left: 73px;
+	float: left;
+}
+
+.sorting h2{
+	padding-left: 73px;
+	display: inline;
+}
+
+.arrow-up {
+	float: right;
+}
+
+.arrow-down {
+	display: inline-block;
+}
+
+.results-logo{
+	width: 135px;
+	display: inline-block;
+	padding-left: 73px;
+	background-color: yellow;
+}
+
+.results-about {
+	width: 393px;
+	display: inline-block;
+	margin-right: 280px;
+	background-color: yellow;
+}
+
+.rating {
+	width: 241px;
+	display: inline-block;
+	background-color: yellow;
 }
