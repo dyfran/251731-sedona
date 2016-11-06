@@ -65,16 +65,15 @@ body {
 
 .features-item {
 	width: 400px;
-	margin-right: -4px;
-	display: inline-block;
+	float: left;
 	outline: 1px solid red;
 	background-color: SlateBlue;
 }
 
 .features-item-background {
 	width: 800px;
-	margin-right: -4px;
-	display: inline-block;
+	height: 256px;
+	float: left;
 }
 
 .advantage-item {
@@ -115,10 +114,6 @@ body {
 	float: right;
 	background-color: LightSalmon;
 }
-
-/*.popup {
-	visibility: hidden;
-}*/
 
 .search-options {
 	padding-left: 73px;
