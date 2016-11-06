@@ -149,6 +149,14 @@ body {
 	outline: 1px solid red;
 }
 
+.main-footer {
+	outline: 1px solid red;
+}
+
+.search-options {
+	outline: 1px solid red;
+}
+
 .results-about {
 	width: 393px;
 	display: inline-block;
