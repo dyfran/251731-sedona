@@ -145,6 +145,10 @@ body {
 	background-color: yellow;
 }
 
+.results {
+	outline: 1px solid red;
+}
+
 .results-about {
 	width: 393px;
 	display: inline-block;
