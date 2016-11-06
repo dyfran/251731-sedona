@@ -45,7 +45,7 @@ body {
 }
 
 .main-background {
-	width: 576px;
+	width: 458px;
 	margin-right: auto;
 	margin-left: auto;
 	background-color: YellowGreen;
@@ -64,8 +64,9 @@ body {
 
 .features-item {
 	width: 400px;
-	margin-right: -3px;
+	margin-right: -4px;
 	display: inline-block;
+	background-color: SlateBlue;
 }
 
 .features-item-background {
@@ -113,9 +114,9 @@ body {
 	background-color: LightSalmon;
 }
 
-.popup {
+/*.popup {
 	visibility: hidden;
-}
+}*/
 
 .search-options {
 	padding-left: 73px;
@@ -132,7 +133,7 @@ body {
 }
 
 .arrow-down {
-	display: inline-block;
+	float: right;
 }
 
 .results-logo{
