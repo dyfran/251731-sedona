@@ -24,6 +24,10 @@ body {
 	margin: 0;
 }
 
+ul {
+	margin: 0px;
+}
+
 .clearfix::after {
   content: "";
 
@@ -162,6 +166,14 @@ body {
 	width: 393px;
 	float: left;
 	background-color: yellow;
+}
+
+.results-column {
+	float: left;
+}
+
+.results-column span {
+	display: block;
 }
 
 .rating {
