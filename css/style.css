@@ -48,8 +48,11 @@ body {
 
 .main-background {
 	width: 1200px;
+	height: 508px;
 	text-align: center;
-	background-image: url(img/background.jpg);
+	background-image: url(../img/teeth.png), url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom, top;
 }
 
 .about-sedona {
@@ -135,12 +138,15 @@ body {
 
 .results-logo{
 	width: 135px;
-	display: inline-block;
+	float: left;
 	padding-left: 73px;
 	background-color: yellow;
 }
 
+
+
 .results {
+	clear: both;
 	outline: 1px solid red;
 }
 
@@ -154,13 +160,16 @@ body {
 
 .results-about {
 	width: 393px;
-	display: inline-block;
-	margin-right: 280px;
+	float: left;
 	background-color: yellow;
 }
 
 .rating {
 	width: 241px;
-	display: inline-block;
+	float: right;
 	background-color: yellow;
+}
+
+.popup {
+	display: none;
 }
