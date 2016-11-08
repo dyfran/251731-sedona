@@ -100,7 +100,7 @@ ul {
 	width: 567px;
 	text-align: center;
 	padding-top: 45px;
-	padding-bottom: 49px;
+	padding-bottom: 35px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -134,7 +134,7 @@ ul {
 	float: left;
 	text-align: center;
 	padding-top: 60px;
-	padding-bottom: 80px;
+	padding-bottom: 64px;
 }
 
 .advantage-item p {
@@ -152,8 +152,8 @@ ul {
 .interested h2 {
 	font-size: 30px;
 	line-height: 24px;
-	padding-top: 38px;
-	padding-bottom: 15px;
+	padding-top: 31px;
+	padding-bottom: 10px;
 }
 
 .interested p {
@@ -169,7 +169,7 @@ ul {
 	margin-left: auto;
 	background-color: #766357;
 	text-align: center;
-	padding-top: 25px;
+	padding-top: 30px;
 	padding-bottom: 25px;
 }
 
