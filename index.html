@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>HTML Academy: Седона</title>
 	<link href="css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
 <body>
 	<div class="container">
@@ -61,7 +62,7 @@
 				</div>
 				<div class="advantage-item">
 					<img src="img/features-logo3.png" width="64" height="76" alt="Сувениры в Седоне">		
-					<h2> Жилье </h2>
+					<h2> Сувениры </h2>
 					<p> Не только китайского, но и местного производства! </p>
 				</div>
 			</div>
@@ -104,6 +105,21 @@
 				<a class="search-hotel" href="hotel-page">Поиск гостиницы в Седоне</a>
 			</div>
 
+			<div class="popup">
+				<div class="popup-title">
+					<h2> Поиск гостиницы в Седоне </h2>
+				</div>
+				<div class="popup-form">
+					<form action="#" method="get">
+						<label>Дата заезда<input type="date" name="form-hotel" value="date-in"></label>
+						<label>Дата выезда<input type="date" name="form-hotel" value="date-out"></label>
+						<label>Взрослые<input type="number" name="form-hotel" value="grown"></label>
+						<label>Дети<input type="number" name="form-hotel" value="children"></label>
+						<input type="submit" value="Найти">
+					</form>				
+				</div>
+			</div>
+
 			<div class="map">
 				<img src="img/map.png" width="1200" height="593" alt="Карта">
 			</div>
@@ -127,21 +143,6 @@
 				</section>
 			</div>
 		</footer>
-
-		<div class="popup">
-			<div class="popup-title">
-				<h2> Поиск гостиницы в Седоне </h2>
-			</div>
-			<div class="popup-form">
-				<form action="#" method="get">
-					<label>Дата заезда<input type="date" name="form-hotel" value="date-in"></label>
-					<label>Дата выезда<input type="date" name="form-hotel" value="date-out"></label>
-					<label>Взрослые<input type="number" name="form-hotel" value="grown"></label>
-					<label>Дети<input type="number" name="form-hotel" value="children"></label>
-					<input type="submit" value="Найти">
-				</form>				
-			</div>
-		</div>
 	</div>
 </body>
 </html>

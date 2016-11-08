@@ -19,7 +19,9 @@ body {
 	line-height: 26px;
 	color: rgb(52, 51, 51);
 	font-weight: normal;
-	font-family: "PT Sans"
+	font-family: "PT Sans", "Arial", sans-serif;
+	color: #000000;
+	text-transform: uppercase;
 	padding: 0;
 	margin: 0;
 }
@@ -39,42 +41,86 @@ ul {
 	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: pink;
 }
 
 /*.main-header {
-	background-color: MediumAquamarine;
-}*/
-
+	background-color: #ffffff;
+}
+*/
 .main-navigation {
-	background-color: MediumSlateBlue;
+	position: relative;
+	background-color: #ffffff;
+}
+
+.logo {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -70px;
+}
+
+.main-navigation ul a {
+	color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  padding: 15px 73px;
+}
+
+.main-navigation li:nth-child(2) {
+	padding-right: 244px;
+}
+
+.main-navigation ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-size: 0px;
+}
+
+.main-navigation li {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	font-size: 14px;
+	line-height: 26px;
 }
 
 .main-background {
 	width: 1200px;
-	height: 508px;
+	height: 432px; /*по макету 508 ????????*/
+	padding-top: 77px;
 	text-align: center;
 	background-image: url(../img/teeth.png), url(../img/background.jpg);
 	background-repeat: no-repeat;
-	background-position: bottom, top;
+	background-position: bottom, 0px -55px;
 }
 
 .about-sedona {
 	width: 567px;
+	text-align: center;
+	padding-top: 45px;
+	padding-bottom: 49px;
 	margin-right: auto;
 	margin-left: auto;
-	background-color: MediumAquamarine;
 }
 
-.features {
-	background-color: DarkGoldenRod;
+.about-sedona p{
+	padding-top: 15px;
 }
 
 .features-item {
 	width: 400px;
 	float: left;
-	outline: 1px solid red;
-	background-color: SlateBlue;
+	text-align: center;
+	padding-top: 48px;
+	padding-bottom: 48px;
+	background-color: #eeeeee;
+}
+
+.features-item p {
+	padding-left: 59px;
+	padding-right: 59px;
 }
 
 .features-item-background {
@@ -86,21 +132,57 @@ ul {
 .advantage-item {
 	width: 400px;
 	float: left;
-	background-color: Teal;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+
+.advantage-item p {
+	padding-left: 73px;
+	padding-right: 73px;
 }
 
 .interested {
 	width: 576px;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: green;
+}
+
+.interested h2 {
+	font-size: 30px;
+	line-height: 24px;
+	padding-top: 38px;
+	padding-bottom: 15px;
+}
+
+.interested p {
+	font-size: 14px;
+	line-height: 24px;
+	padding-bottom: 30px;
 }
 
 .search {
+	position: relative;
 	width: 576px;
 	margin-right: auto;
 	margin-left: auto;
-	background-color: PowderBlue;
+	background-color: #766357;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.search a {
+	font-size: 21px;
+	line-height: 26px;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.popup {
+	position: absolute;
 }
 
 .footer-tag {
@@ -147,8 +229,6 @@ ul {
 	background-color: yellow;
 }
 
-
-
 .results {
 	clear: both;
 	outline: 1px solid red;
@@ -182,6 +262,11 @@ ul {
 	background-color: yellow;
 }
 
-.popup {
-	display: none;
+.blue-item {
+	background-color: #81b3d2;
+	color: #ffffff;
+}
+
+.blue-item h2{
+	color: #ffffff;
 }
