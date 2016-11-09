@@ -164,7 +164,7 @@ ul {
 
 .search {
 	position: relative;
-	width: 576px;
+	width: 568px;
 	margin-right: auto;
 	margin-left: auto;
 	background-color: #766357;
@@ -182,20 +182,60 @@ ul {
 }
 
 .popup {
+	width: 568px;
 	position: absolute;
+	left: 50%;
+	margin-left: -284px;
+	background-color: #ffffff;
+	display: inline-block;
+}
+
+.popup form {
+	padding: 55px;
+	margin-bottom: 30px;
 }
 
 .footer-tag {
 	width: 240px;
 	float: left;
+	padding-top: 50px;
+	padding-bottom: 55px;
+	padding-left: 130px;
 	margin-right: 88px;
-	background-color: LightBlue;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+
 }
 
 .footer-social {
 	width: 400px;
 	float: left;
-	background-color: LightGreen;
+	padding-top: 36px;
+	text-align: center;
+}
+
+.social-btn {
+	display: inline-block;
+	width: 46px;
+	height: 48px;
+	background-color: #81b3d2;
+	margin-right: 4px;
+	font-size: 0px;
+	vertical-align: top;
+	
+}
+
+.social-btn-fb {
+	background-position: -10px -10px;
+}
+
+.social-btn-tw {
+
+}
+
+.social-btn-yt {
+
 }
 
 .footer-copyright {
