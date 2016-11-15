@@ -120,11 +120,10 @@ ul {
 
 .features-item {
 	width: 400px;
-	min-height: 162px;
+	min-height: 222px;
 	float: left;
 	text-align: center;
-	padding-top: 46px;
-/*	padding-bottom: 30px;*/
+	padding-top: 34px;
 	background-color: #eeeeee;
 }
 
@@ -134,7 +133,7 @@ ul {
 }
 
 .features-item h2 {
-	padding: 0px 93px;
+	padding: 0px 120px;
 }
 
 .features-item-background {
@@ -211,6 +210,41 @@ ul {
 	margin-bottom: 30px;
 }
 
+.popup form label {
+	display: inline-block;
+  margin-bottom: 37px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.popup form input {
+	display: inline-block;
+	width: 300px;
+  min-height: 38px;
+  padding: 0 12px;
+  text-align: left;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*.popup form input:nth-child(n+3) {
+	width: 114px;
+	}*/
+
+.container {
+	position: relative;
+}
+
+.main-footer {
+	position: absolute;
+	opacity: 0.9;
+}
+
 .footer-tag {
 	width: 240px;
 	float: left;
@@ -245,7 +279,17 @@ ul {
 .footer-copyright {
 	width: 241px;
 	float: right;
-	background-color: LightSalmon;
+	padding-top: 50px;
+}
+
+.footer-copyright a {
+	font-size: 0px;
+	display: block;
+	float: right;
+	width: 113px;
+	height: 39px;
+	background-image: url(../img/html-logo.png);
+	background-repeat: no-repeat;
 }
 
 .search-options {
