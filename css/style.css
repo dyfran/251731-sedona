@@ -63,12 +63,6 @@ ul {
 	color: #000000;
   text-decoration: none;
   font-weight: bold;
-  display: block;
-  padding: 15px 73px;
-}
-
-.main-navigation li:nth-child(2) {
-	padding-right: 244px;
 }
 
 .main-navigation ul {
@@ -76,19 +70,34 @@ ul {
 	padding: 0px;
 	list-style: none;
 	font-size: 0px;
+	padding: 15px 0px;
+}
+
+.main-navigation {
+	padding-left: 72px;
+	padding-right: 72px;
 }
 
 .main-navigation li {
 	display: inline-block;
 	vertical-align: top;
-	text-align: center;
+	text-align: left;
+	width: 240px;
 	font-size: 14px;
 	line-height: 26px;
 }
 
+.main-navigation li:nth-child(2) {
+	margin-right: 96px;
+}
+
+.main-navigation li:nth-child(n+3) {
+	text-align: right;
+}
+
 .main-background {
 	width: 1200px;
-	height: 432px; /*по макету 508 ????????*/
+	height: 432px;
 	padding-top: 77px;
 	text-align: center;
 	background-image: url(../img/teeth.png), url(../img/background.jpg);
@@ -111,16 +120,21 @@ ul {
 
 .features-item {
 	width: 400px;
+	min-height: 162px;
 	float: left;
 	text-align: center;
-	padding-top: 48px;
-	padding-bottom: 48px;
+	padding-top: 46px;
+/*	padding-bottom: 30px;*/
 	background-color: #eeeeee;
 }
 
 .features-item p {
 	padding-left: 59px;
 	padding-right: 59px;
+}
+
+.features-item h2 {
+	padding: 0px 93px;
 }
 
 .features-item-background {
@@ -169,11 +183,13 @@ ul {
 	margin-left: auto;
 	background-color: #766357;
 	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 25px;
+/*	padding-top: 30px;
+	padding-bottom: 25px;*/
 }
 
 .search a {
+	display: block;
+	padding: 30px 0px;
 	font-size: 21px;
 	line-height: 26px;
 	text-decoration: none;
