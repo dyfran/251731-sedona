@@ -105,20 +105,37 @@
 				<a class="search-hotel" href="hotel-page">Поиск гостиницы в Седоне</a>
 			</div>
 
-			<!-- <div class="popup">
-				<div class="popup-title">
-					<h2> Поиск гостиницы в Седоне </h2>
-				</div> -->
-				<div class="popup">
-					<form action="#" method="get">
-						<label>Дата заезда:<input class="style-input" type="date" name="form-hotel" value="date-in"></label>
-						<label>Дата выезда:<input class="style-input" type="date" name="form-hotel" value="date-out"></label>
-						<label>Взрослые:<input class="style-input small-input" type="number" name="form-hotel" value="grown"></label>
-						<label>Дети:<input class="style-input small-input" type="number" name="form-hotel" value="children"></label>
-						<input class="btn-input" type="submit" value="Найти">
-					</form>				
-				</div>
-			<!-- </div> -->
+			<div class="popup">
+				<form action="#" method="get">
+					<label class="sub-input" for="check-in"">Дата заезда:</label>
+					<div class="date-wrapper">
+						<input class="style-input" type="date" name="form-hotel" id="check-in" value="date-in">
+						<button class="date-btn">Дата</button>
+					</div>
+
+					<label class="sub-input" for="check-out">Дата выезда:</label>
+					<div class="date-wrapper">
+						<input class="style-input" type="date" name="form-hotel" id="check-out" value="date-out">
+						<button class="date-btn">Дата</button>
+					</div>
+
+					<label class="sub-input" for="adults">Взрослые:</label>
+					<div class="people-wrapper">
+						<button class="btn-less">-</button>
+						<input class="style-input small-input" type="number" name="form-hotel" id="adults" value="grown">
+						<button class="btn-more">+</button>
+					</div>
+
+					<label class="sub-input" for="children">Дети:</label>
+					<div class="people-wrapper">
+						<button class="btn-less">-</button>
+						<input class="style-input small-input" type="number" name="form-hotel" id="children" value="children">
+						<button class="btn-more">+</button>
+					</div>
+
+					<input class="btn-input" type="submit" value="Найти">
+				</form>				
+			</div>
 
 			<div class="map">
 				<img src="img/map.png" width="1200" height="593" alt="Карта">

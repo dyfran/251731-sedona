@@ -196,6 +196,8 @@ ul {
 	font-weight: bold;
 }
 
+
+
 .popup {
 	width: 568px;
 	position: absolute;
@@ -208,9 +210,10 @@ ul {
 .popup form {
 	padding: 55px;
 	margin-bottom: 30px;
+	font-size: 0px;
 }
 
-.popup form label {
+.sub-input {
 	display: inline-block;
   margin-bottom: 37px;
   font-size: 14px;
@@ -219,22 +222,66 @@ ul {
 
 .style-input {
 	display: inline-block;
-	width: 246px;
+	width: 346px;
   min-height: 38px;
-  padding: 0 12px;
   text-align: left;
   text-transform: uppercase;
   border: none;
   outline: none;
-  margin-left: 20px;
+  margin-left: 15px;
   background-color: #f2f2f2;
   font-size: 14px;
   font-weight: bold;
 }
 
+.date-wrapper {
+	display: inline-block;
+	position: relative;
+}
+
+.people-wrapper {
+	display: inline-block;
+	position: relative;
+}
+
 .small-input {
 	width: 114px;
+}
 
+.date-btn {
+	position: absolute;
+	right: 0px;
+	top: 8px;
+}
+
+.btn-less {
+	position: absolute;
+	left: 15px;
+	top: 8px;
+}
+
+.btn-more {
+	position: absolute;
+	right: 0px;
+	top: 8px;
+}
+
+.btn-input {
+	display: block;
+	position: absolute;
+  left: 50%;
+  width: 458px;
+  margin-left: -229px;
+  min-height: 58px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  background-color: #81b3d2;
+  font-size: 21px;
+  font-weight: bold;
 }
 
 .container {
