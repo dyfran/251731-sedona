@@ -217,9 +217,9 @@ ul {
   font-weight: bold;
 }
 
-.popup form input {
+.style-input {
 	display: inline-block;
-	width: 300px;
+	width: 246px;
   min-height: 38px;
   padding: 0 12px;
   text-align: left;
@@ -230,6 +230,11 @@ ul {
   background-color: #f2f2f2;
   font-size: 14px;
   font-weight: bold;
+}
+
+.small-input {
+	width: 114px;
+
 }
 
 .container {
@@ -287,8 +292,6 @@ ul {
 	background-image: url(../img/spritesheet.png);
 	background-position: 3px -177px;
 }
-
-
 
 .footer-copyright {
 	width: 241px;
