@@ -318,6 +318,7 @@ ul {
 
 .container {
 	position: relative;
+	box-shadow: 0 0 25px 10px #dedede;
 }
 
 .main-footer {
@@ -326,6 +327,10 @@ ul {
 	opacity: 0.9;
 	background: white;
 	bottom: 0px;
+}
+
+.main-footer-down {
+	position: static;
 }
 
 .footer-tag {
@@ -391,6 +396,16 @@ ul {
 .search-options {
 	padding-left: 73px;
 	float: left;
+}
+
+.search-panel {
+	background-image: url(../img/hotel-page-background.jpg);
+	min-height: 215px;
+	margin-bottom: 30px;
+}
+
+.sorting {
+	margin-bottom: 30px;
 }
 
 .sorting h2{
