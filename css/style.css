@@ -196,8 +196,6 @@ ul {
 	font-weight: bold;
 }
 
-
-
 .popup {
 	width: 568px;
 	position: absolute;
@@ -209,7 +207,7 @@ ul {
 
 .popup form {
 	padding: 55px;
-	margin-bottom: 30px;
+	margin-bottom: 77px;
 	font-size: 0px;
 }
 
@@ -218,6 +216,11 @@ ul {
   margin-bottom: 37px;
   font-size: 14px;
   font-weight: bold;
+  text-align: left;
+}
+
+.sub-input-right {
+	margin-left: 50px;
 }
 
 .style-input {
@@ -273,6 +276,7 @@ ul {
   width: 458px;
   margin-left: -229px;
   min-height: 58px;
+  bottom: 53px;
   cursor: pointer;
   text-align: center;
   text-transform: uppercase;
