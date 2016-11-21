@@ -24,6 +24,7 @@ body {
 	text-transform: uppercase;
 	padding: 0;
 	margin: 0;
+	background-color: #f2f2f2;
 }
 
 ul {
@@ -156,7 +157,7 @@ ul {
 }
 
 .interested {
-	width: 576px;
+	width: 398px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -166,13 +167,13 @@ ul {
 	font-size: 30px;
 	line-height: 24px;
 	padding-top: 31px;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 
 .interested p {
 	font-size: 14px;
 	line-height: 24px;
-	padding-bottom: 30px;
+	padding-bottom: 33px;
 }
 
 .search {
@@ -320,7 +321,7 @@ ul {
 
 .container {
 	position: relative;
-	box-shadow: 0 0 25px 10px #dedede;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
 
 .main-footer {
@@ -338,7 +339,7 @@ ul {
 .footer-tag {
 	width: 185px;
 	float: left;
-	padding-top: 47px;
+	padding-top: 49px;
 	padding-bottom: 56px;
 	padding-left: 131px;
 	margin-right: 88px;
