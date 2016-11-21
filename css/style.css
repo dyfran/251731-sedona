@@ -396,6 +396,31 @@ ul {
 .search-options {
 	padding-left: 73px;
 	float: left;
+	width: 182px;
+}
+
+.search-options h2 {
+	margin-top: 20px;
+	margin-bottom: 24px;
+	font-size: 16px;
+}
+
+.search-options p {
+  margin-bottom: 25px;
+}
+
+.price-options {
+	float: right;
+	margin-right: 72px;
+	text-align: center;
+  color: #ffffff;
+}
+
+.price-options h2 {
+	margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 16px;
 }
 
 .search-panel {
@@ -430,10 +455,6 @@ ul {
 
 .results {
 	clear: both;
-	outline: 1px solid red;
-}
-
-.search-options {
 	outline: 1px solid red;
 }
 
