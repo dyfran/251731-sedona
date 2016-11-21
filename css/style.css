@@ -426,24 +426,61 @@ ul {
 .search-panel {
 	background-image: url(../img/hotel-page-background.jpg);
 	min-height: 215px;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 .sorting {
-	margin-bottom: 30px;
+	margin-bottom: 10px;
+	position: relative;
 }
 
 .sorting h2{
 	padding-left: 73px;
-	display: inline;
+	width: 160px;
+	display: inline-block;
+	vertical-align: middle;
 }
+
+.sorting-name {
+	margin-right: 36px;
+  font-size: 12px;
+}
+
+.sorting-pick {
+	display: inline-block;
+  margin-right: 33px;
+  vertical-align: middle;
+  font-size: 12px;
+  text-decoration: none;
+  border-bottom: 1px dotted #81b3d2;
+  line-height: 18px;
+  color: #cacaca;
+}
+
+.sorting-pick-active {
+	color: #81b3d2;
+	border-bottom: none;
+}
+
 
 .arrow-up {
 	float: right;
+	margin-right: 90px;
+	position: absolute;
+	top: 15px;
+	right: 0px;
+	text-decoration: none;
+	color: #cccccc
 }
 
 .arrow-down {
 	float: right;
+	margin-right: 70px;
+	position: absolute;
+	top: 15px;
+	right: 0px;
+	text-decoration: none;
+	color: #81b3d2
 }
 
 .results-logo{
