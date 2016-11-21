@@ -206,15 +206,15 @@ ul {
 }
 
 .popup form {
-	padding: 55px;
-	margin-bottom: 80px;
+	padding: 53px;
+	margin-bottom: 82px;
 	font-size: 0px;
 }
 
 .sub-input {
-	width: 96px;
+	width: 98px;
 	display: inline-block;
-  margin-bottom: 36px;
+  margin-bottom: 35px;
   font-size: 14px;
   font-weight: bold;
   text-align: left;
@@ -230,8 +230,9 @@ ul {
 
 .style-input {
 	display: inline-block;
+	box-sizing: border-box;
 	width: 346px;
-  min-height: 38px;
+  min-height: 40px;
   text-align: left;
   text-transform: uppercase;
   border: none;
@@ -240,6 +241,7 @@ ul {
   background-color: #f2f2f2;
   font-size: 14px;
   font-weight: bold;
+  padding: 0 15px;
 }
 
 .date-wrapper {
@@ -302,7 +304,7 @@ ul {
 	position: absolute;
   left: 50%;
   width: 458px;
-  margin-left: -229px;
+  margin-left: -228px;
   min-height: 58px;
   bottom: 53px;
   cursor: pointer;
@@ -334,11 +336,11 @@ ul {
 }
 
 .footer-tag {
-	width: 240px;
+	width: 185px;
 	float: left;
-	padding-top: 50px;
-	padding-bottom: 55px;
-	padding-left: 130px;
+	padding-top: 47px;
+	padding-bottom: 56px;
+	padding-left: 131px;
 	margin-right: 88px;
 	font-size: 21px;
 	line-height: 26px;
@@ -346,17 +348,17 @@ ul {
 }
 
 .footer-social {
-	width: 400px;
+	width: 392px;
 	float: left;
-	padding-top: 36px;
+	padding-top: 37px;
 	text-align: center;
 }
 
 .social-btn {
 	display: inline-block;
 	width: 46px;
-	height: 48px;
-	margin-right: 4px;
+	height: 47px;
+	margin-right: 2px;
 	font-size: 0px;
 	vertical-align: top;
 	background-color: #81b3d2;
@@ -380,7 +382,8 @@ ul {
 .footer-copyright {
 	width: 241px;
 	float: right;
-	padding-top: 50px;
+	padding-top: 45px;
+	padding-right: 56px;
 }
 
 .footer-copyright a {
