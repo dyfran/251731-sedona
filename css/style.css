@@ -318,6 +318,34 @@ ul {
   font-weight: bold;
 }
 
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label {
+  position: relative;
+  padding-left: 41px;
+  cursor: pointer;
+}
+
+input[type="checkbox"] + label::before {
+  position: absolute;
+  top: -3;
+  left: 0;
+  display: block;
+  width: 22px;
+  height: 22px;
+  content: "";
+  background-image: url("../img/icons-sprite-checkbox.png");
+  background-repeat: no-repeat;
+  background-position: -5px -5px;
+}
+
+input[type="checkbox"]:checked + label::before {
+  width: 26px;
+  background-position: -37px -5px;
+}
+
 .container {
 	position: relative;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
@@ -397,33 +425,165 @@ ul {
 }
 
 .search-options {
+	position: relative;
 	padding-left: 70px;
 	float: left;
 	width: 185px;
+	color: #ffffff;
 }
 
 .search-options h2 {
 	margin-top: 27px;
 	margin-bottom: 24px;
 	font-size: 16px;
+	color: #ffffff;
 }
 
 .search-options p {
   margin-bottom: 19px;
 }
 
-.price-options {
+.price-range-column {
 	float: right;
 	margin-right: 72px;
 	text-align: center;
   color: #ffffff;
 }
 
-.price-options h2 {
+.price-range-column h2 {
 	margin-top: 20px;
   margin-bottom: 10px;
   text-align: left;
   font-size: 16px;
+  color: #ffffff;
+}
+
+.price-range-field {
+  position: relative;
+  margin-left: 10px;
+  font-size: 0;
+}
+
+.price-range-field::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  height: 22px;
+  content: "";
+  transform: translate(-50%, -50%);
+  border-right: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.price-range-field,
+.filter-form-btn {
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  background-color: transparent;
+  font-size: 14px;
+}
+
+.filter-form-btn {
+  padding: 8px 0;
+  text-align: center;
+}
+
+.price-range-field {
+  width: 314px;
+  padding: 5px 0;
+  text-align: left;
+}
+
+#range-min-price,
+#range-max-price {
+  width: 65px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  background-color: transparent;
+}
+
+label[for="range-min-price"] {
+  margin-left: 65px;
+}
+
+#range-min-price {
+  margin-right: 57px;
+}
+
+#range-min-price:focus,
+#range-max-price:focus {
+  outline: none;
+}
+
+.price-range-slider {
+  position: relative;
+  min-height: 22px;
+  margin-bottom: 32px;
+  margin-left: 10px;
+}
+
+.slider-fullbar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  border-bottom: 2px solid #918381;
+}
+
+.slider-bar {
+  width: 80%;
+  height: 2px;
+  border-bottom: 2px solid #ffffff;
+}
+
+.slider-point {
+  position: absolute;
+  top: 11px;
+  width: 20px;
+  height: 20px;
+  content: "";
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.slider-min-point {
+  left: 0;
+}
+
+.slider-max-point {
+  right: 46px;
+}
+
+.slider-point::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  content: "";
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  background-color: #ababab;
+}
+
+.slider-point:hover::before {
+  background-color: #1c4f80;
+}
+
+.filter-form-btn {
+  padding: 8px 34px;
+  cursor: pointer;
+}
+
+.filter-form-btn:hover {
+  color: #000000;
+  background-color: #ffffff;
 }
 
 .search-panel {
