@@ -163,7 +163,7 @@ ul {
 }
 
 .advantage-item p {
-	padding-left: 66px;
+	padding-left: 50px;
 	padding-right: 49px;
 	line-height: 21px;
 	padding-top: 8px;
@@ -772,5 +772,6 @@ label[for="range-min-price"] {
 	padding-top: 6px;
 	padding-bottom: 38px;
 	width: 302px;
-	padding-left: 39px;
+	padding-left: 49px;
+	padding-right: 0px;
 }
