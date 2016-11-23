@@ -168,7 +168,6 @@ ul {
 	line-height: 21px;
 	padding-top: 8px;
 	padding-bottom: 3px;
-	margin-left: -20px;
 }
 
 .advantage-item img {
@@ -773,5 +772,5 @@ label[for="range-min-price"] {
 	padding-top: 6px;
 	padding-bottom: 38px;
 	width: 302px;
-	padding-left: 50px;
+	padding-left: 39px;
 }
