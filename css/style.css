@@ -42,6 +42,7 @@ ul {
 	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: #ffffff;
 }
 
 /*.main-header {
@@ -133,17 +134,21 @@ ul {
 	min-height: 222px;
 	float: left;
 	text-align: center;
-	padding-top: 34px;
+	padding-top: 28px;
 	background-color: #eeeeee;
 }
 
 .features-item p {
-	padding-left: 59px;
+	padding-left: 60px;
 	padding-right: 59px;
+	padding-top: 3px;
+	padding-bottom: 45px;
+	line-height: 21px;
+	width: 280px;
 }
 
 .features-item h2 {
-	padding: 0px 120px;
+	padding: 3px 120px;
 }
 
 .features-item-background {
@@ -162,15 +167,26 @@ ul {
 }
 
 .advantage-item p {
-	padding-left: 73px;
-	padding-right: 73px;
+	padding-left: 66px;
+	padding-right: 49px;
+	line-height: 21px;
+	padding-top: 8px;
+	padding-bottom: 3px;
+	margin-left: -20px;
+}
+
+.advantage-item img {
+	width: 74px;
+	height: 73px;
+	padding-bottom: 3px;
 }
 
 .interested {
-	width: 398px;
+	width: 435px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: #ffffff;
 }
 
 .interested h2 {
@@ -377,7 +393,7 @@ input[type="checkbox"]:checked + label::before {
 .footer-tag {
 	width: 185px;
 	float: left;
-	padding-top: 49px;
+	padding-top: 46px;
 	padding-bottom: 56px;
 	padding-left: 131px;
 	margin-right: 88px;
@@ -421,7 +437,7 @@ input[type="checkbox"]:checked + label::before {
 .footer-copyright {
 	width: 241px;
 	float: right;
-	padding-top: 45px;
+	padding-top: 44px;
 	padding-right: 56px;
 }
 
@@ -750,4 +766,14 @@ label[for="range-min-price"] {
 
 .blue-item h2{
 	color: #ffffff;
+	width: 151px;
+	padding-left: 124px;
+	padding-top: 8px;
+}
+
+.blue-item p{
+	padding-top: 6px;
+	padding-bottom: 38px;
+	width: 302px;
+	padding-left: 50px;
 }
