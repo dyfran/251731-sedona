@@ -248,7 +248,10 @@ ul {
 }
 
 .sub-input-right {
-	margin-left: 50px;
+	display: inline-block;
+	text-align: right;
+	margin-left: 14px;
+	padding-right: 35px;
 }
 
 .sub-input-left {
@@ -304,14 +307,16 @@ ul {
 .btn-less {
 	position: absolute;
 	left: -5px;
-	font-size: 25px;
-	font-weight: bold;
+	font-size: 0px;
 	color: #a9a9a9;
 	width: 30px;
 	height: 40px;
 	cursor: pointer;
 	border: 0px;
 	background: #f2f2f2;
+	background-image: url(../img/less-logo.png);
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 .btn-more {
