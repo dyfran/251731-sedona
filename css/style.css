@@ -56,7 +56,7 @@ ul {
 	margin-left: -70px;
 }
 
-.main-navigation ul a {
+.main-navigation a {
 	color: #000000;
 	text-decoration: none;
 	font-weight: bold;
@@ -98,6 +98,7 @@ ul {
 	padding-top: 77px;
 	text-align: center;
 	background-image: url(../img/teeth.png), url(../img/background.jpg);
+	background-color: #5496bd;
 	background-repeat: no-repeat;
 	background-position: bottom, 0px -55px;
 }
@@ -107,7 +108,6 @@ ul {
 	padding-top: 45px;
 	padding-bottom: 35px;
 }
-
 
 .about-sedona h1 {
 	width: 567px;
@@ -237,6 +237,7 @@ ul {
 	font-size: 14px;
 	font-weight: bold;
 	text-align: left;
+	vertical-align: baseline;
 }
 
 .sub-input-right {
@@ -244,6 +245,7 @@ ul {
 	text-align: right;
 	margin-left: 14px;
 	padding-right: 35px;
+	vertical-align: baseline;
 }
 
 .sub-input-left {
@@ -264,11 +266,16 @@ ul {
 	font-size: 14px;
 	font-weight: bold;
 	padding: 0 15px;
+	vertical-align: baseline;
 }
 
 .date-wrapper {
 	display: inline-block;
 	position: relative;
+}
+
+.date-wrapper input {
+	font-family: "PT Sans Bold", "Arial", sans-serif;
 }
 
 .people-wrapper {
@@ -294,6 +301,10 @@ ul {
 	background-image: url(../img/date-logo.png);
 	background-repeat: no-repeat;
 	background-position: center center;
+}
+
+.map {
+	background-color: #5496bd;
 }
 
 .btn-less {
@@ -446,6 +457,11 @@ input[type="checkbox"]:checked + label::before {
 	height: 39px;
 	background-image: url(../img/html-logo.png);
 	background-repeat: no-repeat;
+}
+
+.results-about a:first-child {
+	text-decoration: none;
+	color: #000000
 }
 
 .search-options {
@@ -613,6 +629,7 @@ label[for="range-min-price"] {
 
 .search-panel {
 	background-image: url(../img/hotel-page-background.jpg);
+	background-color: #5496bd;
 	min-height: 217px;
 	width: 1200px;
 	background-repeat: no-repeat;
@@ -652,7 +669,6 @@ label[for="range-min-price"] {
 	color: #81b3d2;
 	border-bottom: none;
 }
-
 
 .arrow-up {
 	float: right;
@@ -705,6 +721,7 @@ label[for="range-min-price"] {
 
 .results-column {
 	display: inline-block;
+	vertical-align: baseline;
 	min-width: 110px;
 	margin-right: 2px;
 	font-size: 14px;
