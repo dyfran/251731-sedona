@@ -276,7 +276,8 @@ ul {
 }
 
 .date-wrapper input {
-	font-family: "PT Sans Bold", "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-weight: 700;
 }
 
 .people-wrapper {
